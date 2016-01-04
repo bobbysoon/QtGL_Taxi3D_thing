@@ -9,7 +9,7 @@ git add ./*.txt
 git commit -m "$(date +%s)"
 git remote add origin https://github.com/bobbysoon/QtGL_Taxi3D_thing.git
 #git remote -v
-git push -u origin master
+git push -uf origin master
 
 find . -name "*.pyc" -type f|xargs rm -f
 
